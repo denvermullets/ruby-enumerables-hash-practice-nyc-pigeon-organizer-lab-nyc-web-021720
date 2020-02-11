@@ -34,7 +34,7 @@ def nyc_pigeon_organizer(data)
           bird_mans[single_name][all_sub_cats] = [] #create new array for subcats 
         end 
         # if the subcat exists, push the data 
-        bird_mans[single_name][all_sub_cats].push(sub_cat_info)
+        bird_mans[single_name][all_sub_cats].push(sub_cat_info.to_s)
       end
     
     end

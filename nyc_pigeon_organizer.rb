@@ -30,7 +30,7 @@ def nyc_pigeon_organizer(data)
         bird_mans[single_name][all_sub_cats] ||= [] #create array in hash if no info present
         
         # if the subcat exists, push the data 
-        bird_mans[single_name][all_sub_cats][]
+        bird_mans[single_name][all_sub_cats] << 
       end
     
     end

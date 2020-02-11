@@ -10,13 +10,15 @@ def nyc_pigeon_organizer(data)
   data.each do |all_sub_cats, value|
     # pp all_sub_cats
       # returns => :color :gender :lives
-    pp value
-      # returns the subhashes w/arrays => :purple // :male // "locations"
+    # pp value
+      # returns the value of subhashes w/arrays => :purple // :male // "locations"
     
     # now we need to pull the sub hash keys
     value.each do |sub_cat_info, names_of_birds|
       # pp sub_cat_info
         # returns hashes => :purple // :male // "locations"
+      pp names_of_birds
+        # returns 
     end
       
            

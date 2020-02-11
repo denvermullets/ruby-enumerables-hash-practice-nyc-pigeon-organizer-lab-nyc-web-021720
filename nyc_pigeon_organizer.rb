@@ -26,7 +26,7 @@ def nyc_pigeon_organizer(data)
           # returns a list of all names, with dupes, in order of appearance
         
         #lets check our hash to see if name exists as key, if not add to hash 
-        if bird_mans 
+        if bird_mans[single_name] == nil
         
         
       end

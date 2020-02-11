@@ -30,7 +30,7 @@ def nyc_pigeon_organizer(data)
           bird_mans[single_name] = {} # create a hash that will contain other hashes of info
         end 
         # since we're sorting my root name, check to make sure other info exists
-        if bird_mans[single_name][]
+        if bird_mans[single_name][all_sub_cats]
         
       end
     

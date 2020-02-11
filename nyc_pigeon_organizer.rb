@@ -30,6 +30,7 @@ def nyc_pigeon_organizer(data)
           bird_mans[single_name] = {} # create a hash that will contain other hashes of info
         end 
         
+        if bird_mans[]
         
       end
     

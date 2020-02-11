@@ -20,6 +20,7 @@ def nyc_pigeon_organizer(data)
       # pp names_of_birds
         # returns array of names
     
+      # now we need to loop thru the names and make sure they're the base key in our hash 
       
     
     end

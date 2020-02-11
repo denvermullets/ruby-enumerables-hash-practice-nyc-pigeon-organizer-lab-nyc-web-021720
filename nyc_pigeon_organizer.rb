@@ -31,7 +31,8 @@ def nyc_pigeon_organizer(data)
         end 
         # since we're sorting my root name, check to make sure other info exists
         if bird_mans[single_name][all_sub_cats] == nil 
-          bird_mans[single_name][all_sub_cats] = 
+          bird_mans[single_name][all_sub_cats] = [] #create new array for subcats 
+        end 
         
       end
     

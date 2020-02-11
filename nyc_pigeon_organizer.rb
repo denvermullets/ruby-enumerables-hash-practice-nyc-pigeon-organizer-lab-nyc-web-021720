@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   #create my new hash that'll be organized the way we want
   bird_mans = {}
   
-  # pull the 1st set of keys
+  # we're going to loop thru hash and pull the 1st set of keys
   data.each do |all_sub_cats, value|
     # pp all_sub_cats
       # returns => :color :gender :lives
@@ -17,8 +17,8 @@ def nyc_pigeon_organizer(data)
     value.each do |sub_cat_info, names_of_birds|
       # pp sub_cat_info
         # returns hashes => :purple // :male // "locations"
-      pp names_of_birds
-        # returns 
+      # pp names_of_birds
+        # returns array of names
     end
       
            

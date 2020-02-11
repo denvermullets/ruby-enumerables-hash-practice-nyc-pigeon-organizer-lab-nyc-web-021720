@@ -29,8 +29,8 @@ def nyc_pigeon_organizer(data)
         if bird_mans[single_name] == nil 
           bird_mans[single_name] = {} # create a hash that will contain other hashes of info
         end 
-        # since we're sorting my root name, check to make sure other 
-        if bird_mans[]
+        # since we're sorting my root name, check to make sure other info exists
+        if bird_mans[single_name][]
         
       end
     

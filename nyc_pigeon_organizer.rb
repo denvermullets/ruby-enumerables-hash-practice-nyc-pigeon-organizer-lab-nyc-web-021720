@@ -23,6 +23,11 @@ def nyc_pigeon_organizer(data)
       # now we need to loop thru the names and make sure they're the base key in our hash 
       bird_names.each do |single_name|
         pp single_name
+        
+        
+        
+        
+      end
     
     end
       

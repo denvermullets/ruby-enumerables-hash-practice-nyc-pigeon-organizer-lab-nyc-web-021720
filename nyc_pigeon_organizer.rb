@@ -23,25 +23,18 @@ def nyc_pigeon_organizer(data)
           # returns a list of all names, with dupes, in order of appearance
         
         #lets check our hash to see if name exists as key, if not add to hash 
-        bird_mans[single_name] ||= {} 
-        # ||= http://www.rubyinside.com/what-rubys-double-pipe-or-equals-really-does-5488.html
-        
+        if bird_mans[single_name] == nil 
+          bird_mans[single_name] = {} # create a hash that will contain other hashes of info
+        end 
         # since we're sorting my root name, check to make sure other info exists
-        bird_mans[single_name][all_sub_cats] ||= [] #create array in hash if no info present
-        
+        if bird_mans[single_name][all_sub_cats] == nil 
+          bird_mans[single_name][all_sub_cats] = [] #create new array for subcats 
+        end 
         # if the subcat exists, push the data 
-        bird_mans[single_name][all_sub_cats].push(sub_cat_info.to_s)
+        bird_mans[single_name][all_sub_cats] << (sub_cat_info.to_s) #convert to string
       end
-    
     end
-      #return final hash
-    bird_mans
   end 
-  
-  
-  
-  
-  
-  
-  
+  #return final hash
+  bird_mans
 end

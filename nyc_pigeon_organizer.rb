@@ -23,7 +23,7 @@ def nyc_pigeon_organizer(data)
           # returns a list of all names, with dupes, in order of appearance
         
         #lets check our hash to see if name exists as key, if not add to hash 
-        bird_mans[]
+        bird_mans[single_name]
         # since we're sorting my root name, check to make sure other info exists
         
         # if the subcat exists, push the data 

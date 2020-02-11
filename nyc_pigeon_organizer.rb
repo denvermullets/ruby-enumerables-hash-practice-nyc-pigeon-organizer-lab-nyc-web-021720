@@ -33,7 +33,8 @@ def nyc_pigeon_organizer(data)
         if bird_mans[single_name][all_sub_cats] == nil 
           bird_mans[single_name][all_sub_cats] = [] #create new array for subcats 
         end 
-        
+        # if the subcat exists, push the data 
+        bird_mans[single_name][all_sub_cats].push
       end
     
     end

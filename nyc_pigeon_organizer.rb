@@ -15,7 +15,9 @@ def nyc_pigeon_organizer(data)
     
     # now we need to pull the sub hash keys
     value.each do |sub_cat_info, names_of_birds|
+      pp sub_cat_info
       
+    end
       
            
   end 

@@ -27,8 +27,9 @@ def nyc_pigeon_organizer(data)
         
         #lets check our hash to see if name exists as key, if not add to hash 
         if bird_mans[single_name] == nil 
-          bird_mans << 
-        
+          bird_mans[single_name] = {} # create a hash that will contain other hashes of info
+        else 
+          
         
       end
     

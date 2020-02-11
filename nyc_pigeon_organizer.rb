@@ -19,6 +19,9 @@ def nyc_pigeon_organizer(data)
         # returns hashes => :purple // :male // "locations"
       # pp names_of_birds
         # returns array of names
+    
+      
+    
     end
       
            
